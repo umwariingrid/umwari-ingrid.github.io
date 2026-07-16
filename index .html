@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo">Your Name</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p class="subtitle">Data Analyst | SQL Specialist | Power BI Developer</p>
+            <p class="description">
+                I transform raw data into actionable insights using Python, SQL, Excel, and Power BI.
+                Explore my projects in financial fraud detection and African mobile analytics.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>📊 Data Analysis</h3>
+                    <ul>
+                        <li>SQL (Complex Queries, Joins, Window Functions)</li>
+                        <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+                        <li>Microsoft Excel (Pivot Tables, VLOOKUP, Macros)</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>📈 Visualization</h3>
+                    <ul>
+                        <li>Power BI (DAX, Power Query, Dashboards)</li>
+                        <li>Tableau</li>
+                        <li>Matplotlib & Seaborn</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>📝 Reporting & Documentation</h3>
+                    <ul>
+                        <li>Automated Report Generation</li>
+                        <li>Executive Dashboards</li>
+                        <li>Technical Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="edu-item">
+                    <h3>🎓 Your Degree</h3>
+                    <p>Your University, Year</p>
+                </div>
+                <div class="edu-item">
+                    <h3>📜 Certifications</h3>
+                    <p>Microsoft PL-300: Power BI Data Analyst</p>
+                    <p>SQL Advanced Certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Portfolio Projects</h2>
+            
+            <!-- Project 1: Fraud Analysis -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🔍 Financial Fraud Detection Analysis</h3>
+                    <span class="project-badge">Python | Pandas | Matplotlib | Faker</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p>
+                            Generated synthetic transaction data using Python's Faker library to simulate 
+                            realistic financial fraud scenarios. Analyzed patterns to identify fraud indicators 
+                            including unusual transaction amounts, timing anomalies, and behavior patterns.
+                        </p>
+                        <div class="key-insights">
+                            <h4>Key Insights:</h4>
+                            <ul>
+                                <li>Identified transaction types with highest fraud rates</li>
+                                <li>Discovered peak fraud hours (2-4 AM)</li>
+                                <li>Found correlation between amount size and fraud probability</li>
+                            </ul>
+                        </div>
+                        <div class="tools-used">
+                            <span>Python</span>
+                            <span>Faker</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="fraud-analysis/" class="btn small">View Analysis</a>
+                            <a href="#" class="btn small outline">GitHub Repo</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="data/fraud_analysis_dashboard.png" alt="Fraud Analysis Dashboard">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Africa Mobile Analysis -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🌍 African Online Mobile Usage Analysis</h3>
+                    <span class="project-badge">Python | Pandas | Visualization | Faker</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p>
+                            Simulated mobile usage data across 10 African countries to analyze trends in 
+                            data consumption, call behavior, and revenue patterns. Generated realistic 
+                            user profiles with country-specific demographics and provider preferences.
+                        </p>
+                        <div class="key-insights">
+                            <h4>Key Insights:</h4>
+                            <ul>
+                                <li>Nigeria and South Africa lead in data consumption</li>
+                                <li>Younger users (18-30) consume significantly more data</li>
+                                <li>Weekend usage patterns differ from weekdays</li>
+                            </ul>
+                        </div>
+                        <div class="tools-used">
+                            <span
